@@ -10,6 +10,18 @@ header {
   padding: 15px 0;
   height: 45px;
 }
+button,button:active,.button{
+  border:none;
+  background-color: #f0f0f0;
+  height:40px;
+  color: #777;
+  font-weight: 600;
+}
+button:active,.button:active{
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  color:#222;
+}
 a {
   text-decoration: none;
 }
@@ -38,6 +50,7 @@ header > div a{
     background: linear-gradient(top,#4387fd,#4683ea);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
     color:#fff;
+    height:30px;
 }
 .signup:hover{
   text-decoration: none;
@@ -95,4 +108,10 @@ div.img{
   height: 40px;
   width: 23px;
   vertical-align: middle;
+}
+.search-buttons {
+  margin-top:30px;
+}
+.search-buttons button{
+  margin:0 5px;
 }
