@@ -1,0 +1,16 @@
+body,header{
+  min-height:100%;
+  margin: 0;
+  padding: 0;
+}
+header div{
+  float:right;
+}
+header div *{
+  float:none;
+}
+.content{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
