@@ -13,13 +13,13 @@ header {
 a {
   text-decoration: none;
 }
-header div{
+header > div{
   float:right;
   color:#333;
   padding: 0 30px;
   height:30px;
 }
-header div a{
+header > div a{
   float: none;
   margin-left: 15px;
   color: #333;
@@ -42,7 +42,7 @@ header div a{
 .signup:hover{
   text-decoration: none;
 }
-img{
+div.img{
   display: inline-block;
   vertical-align: middle;
 }
@@ -63,7 +63,7 @@ img{
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-#logo img{
+#logo div.img{
   width:272px;
   height: 92px;
   background: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png) no-repeat;
