@@ -1,13 +1,28 @@
-body,header{
+body {
   min-height:100%;
+  width:100%;
   margin: 0;
   padding: 0;
+  font-family: arial,sans-serif;
+}
+header {
+  width: 100%;
+  padding: 15px 0;
+  height: 45px;
+}
+a {
+  text-decoration: none;
 }
 header div{
   float:right;
+  color:#333;
+  padding: 0 30px;
+  height:30px;
 }
-header div *{
-  float:none;
+header div a{
+  float: none;
+  margin-left: 15px;
+  color: #333;
 }
 .content{
   margin: 0 auto;
@@ -22,9 +37,24 @@ header div *{
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     background: linear-gradient(top,#4387fd,#4683ea);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+    color:#fff;
+}
+.signup:hover{
+  text-decoration: none;
 }
 .matrix{
   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
   background-size: 528px 68px;
   background-position: -132px -38px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;x;
+}
+.button{
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
